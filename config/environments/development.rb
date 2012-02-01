@@ -19,7 +19,7 @@ Todo::Application.configure do
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
-
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
   
